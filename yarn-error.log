@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add node-sass@4.14.1
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;;C:\Users\om\AppData\Local\Microsoft\WindowsApps;C:\Users\om\AppData\Roaming\npm;C:\Users\om\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\om\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\om\AppData\Local\Yarn\Cache\v6\npm-@mui-material-5.6.0-284270f5e48d379a9b9bc4db412a807b807965b5-integrity\node_modules\@mui\material\package.json' -> 'C:\Users\om\Desktop\react-ws-chat-app\frontend\node_modules\@mui\material\package.json'
+
+npm manifest: 
+  {
+    "name": "react-ws-chat-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@emotion/react": "^11.9.0",
+      "@emotion/styled": "^11.8.1",
+      "@mui/icons-material": "^5.6.0",
+      "@mui/material": "^5.6.0",
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^12.1.4",
+      "@testing-library/user-event": "^13.5.0",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-icons": "^4.3.1",
+      "react-scripts": "5.0.0",
+      "web-vitals": "^2.1.4",
+      "websocket": "^1.0.34"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
